@@ -7,7 +7,7 @@
     "dev": "tailwindcss -i ./src/css/tailwind.css -o ./src/css/global.css --watch"
   },
   "keywords": [],
-  "author": "Krishna",
+  "author": "Lakshan Rukantha",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.16",
