@@ -129,7 +129,7 @@ Data Saver: ${connection.saveData ? "Enabled" : "Disabled"}
     }
 
     try {
-      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=YOUR_API_KEY`);
+      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=fcefa3776e2aab66d46f41629b6b51de`);
       const data = await response.json();
       if (data.cod !== 200) throw new Error(data.message);
 
